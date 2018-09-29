@@ -1,0 +1,87 @@
+body {
+	margin: 0;
+	padding: 0;
+	background: #c8c8c8;
+	font:600 16px/18px 'Open Sans',sans-serif;
+}
+a {
+	color:inherit;
+	text-decoration: none;
+}
+input, button {
+	outline: none;
+	border: none;
+}
+
+.login-wrap {
+	width: 100%;
+	max-width: 525px;
+	min-height: 670px;
+	margin: 50px auto;
+	position: relative;
+	background: url(../images/bg.jpg) no-repeat center;
+}
+.login-html {
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	background: rgba(40, 57, 101, 0.9);
+}
+
+.sing-in {
+	display: none;
+}
+.sing-in, .sing-up {
+	top: 50px;
+	left: 70px;
+	right: 70px;
+	bottom: 50px;
+	position: absolute;
+}
+
+span {
+	display: block;
+	font-size: 36px;
+	color: #fff;
+	margin-bottom: 40px;
+	text-align: center;
+}
+
+.group .label {
+	width: 100%;
+	color: #fff;
+	display: block;
+	margin-bottom: 5px;
+}
+.checklable {
+	color: #fff;
+	display: inline-block;
+	margin-bottom: 10px;
+}
+.group .input, 
+.group .button {
+	color: #fff;
+	width: 100%;
+	height: 40px;
+	border: none;
+	font-size: 18px;
+	border-radius: 25px;
+	margin-bottom: 20px;
+	padding-left: 20px;
+	background: rgba(255, 255, 255, 0.1);
+}
+.group .button {
+	background: #1161ee;
+	cursor: pointer;
+}
+.hr {
+	margin-top: 30px;
+	width: 100%;
+	height: 3px;
+	background: #aaa;
+}
+.foot-lnk {
+	text-align: center;
+	margin-top: 20px;
+	color: #aaa;
+}
